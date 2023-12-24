@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Prabakar Chettiyar
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th October 1996
     - name: Languages
-      value: English, German
+      value: English, Tamil, Hindi, Telugu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. Computer Science
+      institution: Arizona State University
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - CGPA 4/4
+    - title: B.Tech. Computer Science and Engineering
+      institution: National Institute of Technology, Tiruchirappalli
+      year: 2014-2018
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA 7.03/10
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Development Engineer Intern
+      institution: Amazon.com Inc, Seattle, Washington
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a solution allowing owners to upload and launch page configurations in the books team, providing validation, allowing edits and rollbacks of the page configs in the BRIXLayer platform.
+        - Implemented front-end web app in React, and back-end changes in Spring Boot to facilitate the migration from S3 to AWS App Config.
+        
+    - title: Software Engineer
+      institution: Fidelity Investments, Chennai, India
+      year: 2018-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Developed Derivatives and Collateral Trade processing software for mutual fund services middle office operations using Spring Boot and Angular, ensuring real-time updates through ActiveMQ queues.
+        - Facilitated application deployment to AWS cloud leveraging Jenkins CI/CD pipelines and Docker, enhancing the efficiency and reliability of processes.
+        - Provided technical support for live production issues, performing RCA through Datadog, promptly resolving challenges, and minimizing downtime.
+        - Utilized JIRA for efficient project progress tracking and Git for version control.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer Intern
+      institution: Fidelity Investments, Chennai, India
+      year: 2017
       description:
+        - Developed a real-time feedback system using Angular, enhancing communication and feedback processes between associates and senior management.
+        - Collaborated effectively with diverse stakeholders in building robust enterprise software and coordinated between different teams.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Relevant Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Medical Imaging, <i>CSE591 Course Project</i>
+      year: 2023
+      description:
+        - Colonoscopy Polyp Segmentation - Utilized UnetPlusPlus with ResNet-34 on ASU-Mayo Dataset to segment and localize polyps achieving Dice score and IoU score of 0.828 and 0.823 respectively.
+        - Chest X-ray Disease Classification - Leveraged Swin Transformer on NIH Chest X-ray dataset for multi-label classification of 14 thoracic diseases reaching ~95% accuracy for most labels and improving AUC to 0.78 after data augmentation.
 
-- title: Honors and Awards
+    - title: SportsFete'17 Android app, <i>Club Project</i>
+      year: 2017
+      description:
+        - Developed an Android application in Java that displays real-time scores and commentary for the college annual inter departmental sports competition.
+        - Integrated Firebase libraries provided by Google for caching and real-time database operations.
+
+- title: Awards and Roles of Responsibility
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Head of App development, <i>Spider Club, NIT Trichy</i>
+      year: 2015-2018
+      description:  Oversaw the complete life cycle of mobile and web applications, including initial concept, requirements gathering, design, development, testing, and deployment, leading to the successful launch of multiple projects that garnered positive user feedback.
+    - title: Hackathons- Finalists
+      year: 2016
+      description: 
+      - Shaastra16-Annual National level Tech. Festival, IIT Madras - Developed a resource allocation app for disaster management.
+      - 3rd Place, Ingenius Hackathon, Bangalore 2016- Built an online debating app.
+        
