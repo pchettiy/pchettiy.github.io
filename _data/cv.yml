@@ -29,26 +29,24 @@
       institution: Amazon.com Inc, Seattle, Washington
       year: 2023
       description:
-        - Developed a solution allowing owners to upload and launch page configurations in the books team, providing validation, allowing edits and rollbacks of the page configs in the BRIXLayer platform.
-        - Implemented front-end web app in React, and back-end changes in Spring Boot to facilitate the migration from S3 to AWS App Config.
-        
+        - Engineered a solution that slashed the time required for page owners to upload and launch page configurations in the books team from multiple weeks to mere minutes using the BRIXLayer platform.
+        - Implemented front-end web app in React, and back-end changes in Spring Boot to facilitate the migration from S3 to AWS App Config, providing validation, allowing edits and rollbacks of the page configs.
     - title: Software Engineer
       institution: Fidelity Investments, Chennai, India
       year: 2018-2021
       description:
-        - Developed Derivatives and Collateral Trade processing software for mutual fund services middle office operations using Spring Boot and Angular, ensuring real-time updates through ActiveMQ queues.
+        - Developed Derivatives and Collateral Trade processing software for mutual fund services middle office operations using Spring Boot and AngularJS, ensuring real-time updates through ActiveMQ queues managing hundreds of trades per minute during market hours.
+        - Provided swift resolutions to live production issues, performing RCA through Datadog, minimizing system downtime.
         - Facilitated application deployment to AWS cloud leveraging Jenkins CI/CD pipelines and Docker, enhancing the efficiency and reliability of processes.
-        - Provided technical support for live production issues, performing RCA through Datadog, promptly resolving challenges, and minimizing downtime.
-        - Utilized JIRA for efficient project progress tracking and Git for version control.
+        - Managed multiple software releases catering to the diverse trade types which augmented the system’s capabilities and boosted the company’s revenue.
 
 
     - title: Software Engineer Intern
       institution: Fidelity Investments, Chennai, India
       year: 2017
       description:
-        - Developed a real-time feedback system using Angular, enhancing communication and feedback processes between associates and senior management.
+        - Launched a user-centric real-time feedback system using Angular, enhancing communication and feedback processes between associates and senior management.
         - Collaborated effectively with diverse stakeholders in building robust enterprise software and coordinated between different teams.
-
 
 - title: Relevant Projects
   type: time_table
@@ -59,10 +57,15 @@
         - Colonoscopy Polyp Segmentation - Utilized UnetPlusPlus with ResNet-34 on ASU-Mayo Dataset to segment and localize polyps achieving Dice score and IoU score of 0.828 and 0.823 respectively.
         - Chest X-ray Disease Classification - Leveraged Swin Transformer on NIH Chest X-ray dataset for multi-label classification of 14 thoracic diseases reaching ~95% accuracy for most labels and improving AUC to 0.78 after data augmentation.
 
+    - title: Sentiment Analysis, <i>Course Project</i>
+      year: 2022
+      description:
+        - Designed a user-friendly web application for real-time sentiment analysis of tweets into positive, negative, and neutral, using Deep Learning and NLP, employing Flask for backend operations.
+        - Implemented and compared various deep learning models including CNN, RNN, and BERT, achieving significant accuracy improvements with BERT. Conducted comprehensive data preprocessing and analysis using SemEval-2017 dataset.
     - title: SportsFete'17 Android app, <i>Club Project</i>
       year: 2017
       description:
-        - Developed an Android application in Java that displays real-time scores and commentary for the college annual inter departmental sports competition.
+        - Founded and developed for the first time in college history, an Android application that delivered real-time scores and commentary for the annual inter-departmental sports competition, built entirely from scratch.
         - Integrated Firebase libraries provided by Google for caching and real-time database operations.
 
 - title: Awards and Roles of Responsibility
